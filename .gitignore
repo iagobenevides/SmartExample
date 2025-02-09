@@ -1,0 +1,12 @@
+node_modules/
+
+cypress.env.json
+
+*.log
+
+.cypress_cache/
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
