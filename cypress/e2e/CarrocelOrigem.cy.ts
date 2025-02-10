@@ -1,9 +1,10 @@
 import LoginPage from "../pageObjects/loginPage";
 import MainPage from "../pageObjects/mainPage";
 
+
 const origem = 'benedito'
-const usuario = Cypress.env("Usuario de login")
-const senha = Cypress.env("Senha de login")
+const usuario = .env('USERNAME')
+const senha = .env('PASSWORD')
 
 describe('Teste responsivo do carrocel de origem', () => {
     
