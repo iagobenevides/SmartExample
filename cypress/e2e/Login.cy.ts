@@ -1,8 +1,7 @@
 import LoginPage from '../pageObjects/loginPage'
-require('dotenv').config()
 
-const usuario = process.env.USERNAME
-const senha = process.env.PASSWORD
+const usuario = Cypress.env("USERLOGIN");
+const senha = Cypress.env("PASSWORD");
 
 describe('Teste de Login no SmartBus', () => {
  
