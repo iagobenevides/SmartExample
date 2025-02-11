@@ -3,8 +3,8 @@ import LoginPage from "../pageObjects/loginPage";
 import MainPage from "../pageObjects/mainPage";
 
 const destino = 'inhucu'
-const usuario = .env('USERNAME')
-const senha = .env('PASSWORD')
+const usuario = process.env.USERNAME
+const senha = process.env.PASSWORD
 
 describe('Teste responsivo do carrocel de destino', () => {
     

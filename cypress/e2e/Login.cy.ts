@@ -1,8 +1,8 @@
 import LoginPage from '../pageObjects/loginPage'
 require('dotenv').config()
 
-const usuario = .env('USERNAME')
-const senha = .env('PASSWORD')
+const usuario = process.env.USERNAME
+const senha = process.env.PASSWORD
 
 describe('Teste de Login no SmartBus', () => {
  
