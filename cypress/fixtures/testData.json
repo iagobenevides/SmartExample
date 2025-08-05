@@ -1,0 +1,33 @@
+{
+  "usuarios": {
+    "valido": {
+      "login": "",
+      "senha": ""
+    },
+    "invalido": {
+      "login": "usuarioInvalido",
+      "senha": "senhaInvalida"
+    },
+    "camposVazios": {
+      "login": "",
+      "senha": ""
+    }
+  },
+  "trechos": {
+    "origem": "benedito",
+    "destino": "inhucu",
+    "origemAlternativa": "são paulo",
+    "destinoAlternativo": "rio de janeiro"
+  },
+  "datas": {
+    "hoje": "",
+    "amanha": "",
+    "proximaSemana": "",
+    "proximoMes": ""
+  },
+  "mensagens": {
+    "erroLogin": "Usuário ou senha inválidos",
+    "campoObrigatorio": "Campo obrigatório",
+    "sucessoLogin": "Login realizado com sucesso"
+  }
+} 
